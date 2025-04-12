@@ -1,10 +1,26 @@
 #lang racket/base
 
+; Signature:
+; Type:
+; Purpose:
+; Pre-conditions:
+; Tests:
 (define last-item
     (lambda (lst)
     @todo
 ))
 
+; Signature:
+; Type:
+; Purpose:
+; Pre-conditions:
+; Tests:
+
+; Signature:
+; Type:
+; Purpose:
+; Pre-conditions:
+; Tests:
 (define remove-last-item
     (lambda (lst)
     @todo

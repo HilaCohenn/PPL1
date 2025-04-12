@@ -10,7 +10,8 @@ export const countVowels: (str: string)=> number = (str) =>
 
 /* Question 2 */
 export const isPalindrome: (str: string) => boolean = (str) => {
-    const arr = stringToArray(str.toLowerCase());
+    const arr = stringToArray(str.toLowerCase())
+    .filter((char) => (char >= 'a' && char <= 'z')||(char>='0' && char<='9'));
     return arr.reduce((acc, char, i) => acc && char === arr[arr.length - 1 - i], true)};
   
 /* Question 3 */
